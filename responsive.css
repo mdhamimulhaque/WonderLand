@@ -1,0 +1,39 @@
+/* table layout-768px */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #second_header button{
+        visibility: hidden;
+    }
+    #second_header .logo{
+        margin-left: 125%;
+    }
+   
+
+
+}
+
+/* mobile layout-320px */
+@media screen and (max-width: 767px){
+    #second_header .logo{
+        margin-left:25%;
+    }
+	#second_header button{
+        display: none;
+    }
+	#main_header .main_header_dropdown_col{
+        display:none
+    }
+
+
+	
+}
+/* wide mobile layout-480px */
+@media screen and (min-width: 480px) and (max-width: 767px){
+		
+
+}
+
+
+/* iphone 4+/pixel-ragio-2 */
+@media screen and (min-width: 768px) and (max-width: 991px){
+	
+}

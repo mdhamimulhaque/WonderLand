@@ -1,0 +1,85 @@
+/* font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* primary:#F2780C #0A472E #97BF04
+
+secondary:#D93D1A  #F2BB13 #72A603 #C0D99C  */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h4,p,a{
+    font-family: 'Poppins', sans-serif;
+}
+/* ==================================global setup area====================================*/
+/* ==================================Start header Section====================================*/
+.Signup_in a,span{
+    padding: 2px 3px 2px 0px;
+    color:#97BF04 ;
+}
+.Signup_in a:hover{
+    color:#0A472E ;
+}
+
+.social_icon a{
+    padding-left: 5px;
+    color:#97BF04 ;
+}
+.social_icon a:hover{
+    color:#0A472E;
+}
+
+/* end top header------------------------------- */
+
+#second_header .logo img{
+      width: 200px;
+      height:60px;
+}
+#second_header button{
+    background: #97BF04;
+    color: #fff;
+}
+#second_header li a{
+    margin-left: 8px;
+    height:30px;
+    width: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 50%;
+    border:1px solid #97BF04 ;
+    color: #97BF04;
+}
+
+#second_header li a:hover{
+    background-color:#97BF04 ;
+    color: #fff;
+}
+/* end second(logo) header ----------------------------------*/
+#main_header{
+    background-color:#0A472E;
+    height:60px
+}
+.main_header_dropdown{
+    height:50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #97BF04
+}
+.main_header_dropdown .main_header_dropdown_menu{
+    background-color:#0A472E ;
+}
+.main_header_dropdown .main_header_dropdown_menu ul li a:hover{
+    background-color:#97BF04 ;
+}
+
+.main_manu_normal{
+    background-color: #0A472E;
+}
+.main_manu_normal ul li a:hover{
+    background-color: #97BF04;
+}
+/* end main header ------------------------------------------*/
+/* ==================================End header Section====================================*/
