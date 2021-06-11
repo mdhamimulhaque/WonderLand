@@ -52,7 +52,7 @@
     }
     #main_carousel .main_carousel_caption{  
         top: 70px;
-        width: 60%;
+        width: 50%;
         padding-right: 10px;
     }	
 
@@ -67,7 +67,7 @@
     }
     #main_carousel .main_carousel_caption{  
         top: 70px;
-        width: 60%;
+        width: 50%;
         padding-right: 10px;
     }
 }

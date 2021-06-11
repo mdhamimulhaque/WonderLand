@@ -14,6 +14,9 @@ secondary:#D93D1A  #F2BB13 #72A603 #C0D99C  */
 h1,h2,h4,p,a{
     font-family: 'Open Sans', sans-serif;
 }
+.primaryTextColor{
+    color:#0A472E
+}
 .PrimaryButton_1{
     color:#fff;
     background-color: #97BF04;
@@ -117,7 +120,7 @@ h1,h2,h4,p,a{
 }
 #main_carousel .main_carousel_caption{
     position: absolute;
-    top: 120px;
+    top: 100px;
     width: 40%;
     padding-left: 20px;
     color: #fff;
@@ -129,3 +132,18 @@ h1,h2,h4,p,a{
     background-color: #96bf0442;
     position: absolute;
 }
+
+/* ==================================main carousel end==================================*/
+/* ==================================our prducts details start==================================*/
+#our_products_details .number img{
+     height: 70px;
+     width: 70px;
+}
+#our_products_details .number_center img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0px 1px 11px 11px #97BF04 ;
+}
+
+/* ==================================our prducts detail end==================================*/
