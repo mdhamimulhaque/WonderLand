@@ -12,7 +12,19 @@ secondary:#D93D1A  #F2BB13 #72A603 #C0D99C  */
 }
 
 h1,h2,h4,p,a{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.PrimaryButton_1{
+    color:#fff;
+    background-color: #97BF04;
+}
+.PrimaryButton_1:hover{
+    color:#97BF04;
+    background-color:#fff;
+}
+
+#header{
+    z-index: 20;
 }
 /* ==================================global setup area====================================*/
 /* ==================================Start header Section====================================*/
@@ -60,13 +72,14 @@ h1,h2,h4,p,a{
 /* end second(logo) header ----------------------------------*/
 #main_header{
     background-color:#0A472E;
-    height:60px
+    height:60px;
+    /*  */
 }
 .main_header_dropdown{
     height:50px;
     margin-top: 5px;
     margin-left: 5px;
-    background-color: #97BF04
+    background-color: #97BF04;
 }
 .main_header_dropdown .main_header_dropdown_menu{
     background-color:#0A472E ;
@@ -83,3 +96,33 @@ h1,h2,h4,p,a{
 }
 /* end main header ------------------------------------------*/
 /* ==================================End header Section====================================*/
+
+
+/* ================================================================================*/
+/* ==================================Main Area start====================================*/
+/* ================================================================================*/
+
+
+/* ==================================main carousel start==================================*/
+#main_carousel{
+    position: relative;
+}
+#main_carousel img{
+    height: 450px;
+    width: 100%;
+    z-index: -10;
+}
+#main_carousel .main_carousel_caption{
+    position: absolute;
+    top: 120px;
+    width: 40%;
+    padding-left: 20px;
+    color: #fff;
+}
+#main_carousel .carousel-item::before{
+    content:"";
+    height: 450px;
+    width: 100%;
+    background-color: #96bf0442;
+    position: absolute;
+}

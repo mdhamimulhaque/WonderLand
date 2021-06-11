@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-
-    <header>
-        <!-- ==========================top header start============================================-->
+    <!-- ========================== Header Section Start============================================-->
+    <header id="header">
+        <!-------------------------------- top header end------------------------------>
         <section id="top_header">
             <div class="container d-flex pt-1 pb-1 top_header_box">
                 <div class="Signup_in">
@@ -34,9 +34,9 @@
                 </div>
             </div>
         </section>
-        <!-- ==========================top header end============================================-->
+        <!-- -----------------------------top header end-------------------------------------------->
 
-        <!-- ==========================second(logo) header start============================================-->
+        <!-- ------------------------second(logo) header start--------------------------------------->
  
           <section id="second_header">
               <div class="container pb-1">
@@ -86,9 +86,9 @@
           </section>
 
         
-        <!-- ==========================second(logo) header end============================================-->
+        <!-- -----------------------------second(logo) header end------------------------->
 
-        <!-- ==========================main header start============================================-->
+        <!-------------------------------- main header start------------------------------>
 
      <section id="main_header">
          <div class="container-fluide">
@@ -102,7 +102,7 @@
                         </nav>
       
                         <div class="collapse" id="allCatagories">
-                          <div class="main_header_dropdown_menu p-4 ">
+                          <div class="main_header_dropdown_menu p-4">
                             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                               <li class="nav-item">
                                 <a class="nav-link text-white p-2" href="#">vagi</a>
@@ -143,6 +143,9 @@
                               <a class="nav-link text-white p-2" href="#">Blog</a>
                             </li>
                             <li class="nav-item">
+                              <a class="nav-link text-white p-2" href="#">pages</a>
+                            </li>
+                            <li class="nav-item">
                               <a class="nav-link text-white p-2" href="#">Contact</a>
                             </li>
                             
@@ -154,21 +157,85 @@
  
            </div>
          </div>
-     </section>
-
-
-
-
-        <!-- ==========================main header end============================================-->
+     </section> 
+     <!-------------------------------- main header end------------------------------>
     </header>
-   
-    <!-- <div class="search-box">
-        <form class="form-inline my-2 my-lg-0">
-       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-     </form>
-   </div> -->
-    
+    <!-- ========================== Header Section End============================================-->
+
+  
+    <!--======================================================================================= -->
+    <!-- ========================== Main Area Start============================================-->
+    <!--======================================================================================= -->
+
+
+   <main>
+     <!--================================= main slider start ======================================-->
+     <section id="main_carousel">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="img/sliderM.jpg" alt="First slide">
+              <div class="main_carousel_caption">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim neque incidunt autem et, soluta aspernatur?</p>
+                <button class="btn PrimaryButton_1">Shop Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sliderM1.jpg" alt="First slide">
+              <div class="main_carousel_caption">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim neque incidunt autem et, soluta aspernatur?</p>
+                <button class="btn PrimaryButton_1">Shop Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sliderM2.jpg" alt="First slide">
+              <div class="main_carousel_caption">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim neque incidunt autem et, soluta aspernatur?</p>
+                <button class="btn PrimaryButton_1">Shop Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sliderM3.jpg" alt="First slide">
+              <div class="main_carousel_caption">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim neque incidunt autem et, soluta aspernatur?</p>
+                <button class="btn PrimaryButton_1">Shop Now</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+     </section>
+     <!--================================= main slider end ======================================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </main>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
