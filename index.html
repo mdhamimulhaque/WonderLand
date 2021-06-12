@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <!-- ====For plagin=====-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <!-- ========================== Header Section Start============================================-->
@@ -220,9 +224,10 @@
         <div class="container mb-5">
           <div class="our_products_details_caption mt-5 mb-5">
             <h2 class="text-center primaryTextColor font-weight-bold">Our Producdts Details</h2>
+            <hr class="underline">
           </div>
           <div class="row">
-            <div class="col-12 col-sm-12 col-md-3 mt-lg-3 col-xl-3">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-lg-5">
               <div class="number d-flex mb-3">
                 <img src="img/11.jpg" alt="">
                 <div class="number_caption mt-3">
@@ -254,7 +259,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-3 mt-lg-3 col-xl-3">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-lg-5">
               <div class="number d-flex mb-3">
                 <img src="img/44.jpg" alt="">
                 <div class="number_caption mt-3">
@@ -281,6 +286,81 @@
         </div>
      </section>
 <!--================================= Our products details section end======================================-->
+<!--================================= Our new product section start======================================-->
+   <section id="new_product">
+     
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+            <h2 class="text-center primaryTextColor font-weight-bold">New Producdts</h2>
+            <hr class="underline">
+        </div>
+      
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 pb-3">
+          <div class="item_button ">
+            <ul class="d-flex justify-content-center">
+              <li data-filter=".VAGETABLES">VAGETABLES</li>
+              <li data-filter=".FRUITS">FRUITS</li>
+              <li data-filter=".FISH">FISH</li>
+              <li data-filter=".PACKAGES">PACKAGES</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row grid">
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 m-0 p-0 mt-3 pr-2 grid-item VAGETABLES">
+          <div class="isotop_body">
+            <img class="" src="img/v1.jpg" alt="">
+            <h6 class="text-center font-weight-bold mt-1 primaryTextColor">Onion</h6>
+            <p class="text-center">Quantity-1kg</p>
+            <h6 class="text-center primaryTextColor_2"><del class="pr-2 text-dark">$90.00</del>$80.10</h6>
+            <div class="add_to_card_button text-center">
+              <a class="btn btn-sm">ADD TO CART >></a>
+            </div>
+          </div>
+       </div>
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 m-0 p-0 mt-3 pr-2 grid-item FRUITS">
+        <div class="isotop_body">
+          <img class="" src="img/f2.jpg" alt="">
+          <h6 class="text-center font-weight-bold mt-1 primaryTextColor">Wattermelon</h6>
+            <p class="text-center">Quantity-1kg</p>
+            <h6 class="text-center primaryTextColor_2"><del class="pr-2 text-dark">$50.00</del>$45.10</h6>
+            <div class="add_to_card_button text-center">
+              <a class="btn btn-sm">ADD TO CART >></a>
+            </div>
+        </div>
+       </div>
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 m-0 p-0 mt-3 pr-2 grid-item FISH">
+        <div class="isotop_body">
+          <img class="" src="img/fs1.jpg" alt="">
+          <h6 class="text-center font-weight-bold mt-1 primaryTextColor">Hilsha Fish</h6>
+            <p class="text-center">Quantity-3kg</p>
+            <h6 class="text-center primaryTextColor_2"><del class="pr-2 text-dark">$190.00</del>$120.10</h6>
+            <div class="add_to_card_button text-center">
+              <a class="btn btn-sm">ADD TO CART >></a>
+            </div>
+        </div>
+       </div>
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 m-0 p-0 mt-3 pr-2 grid-item PACKAGES">
+        <div class="isotop_body">
+          <img class="" src="img/pk1.jpg" alt="">
+          <h6 class="text-center font-weight-bold mt-1 primaryTextColor">Macarony</h6>
+            <p class="text-center">Quantity-1kg</p>
+            <h6 class="text-center primaryTextColor_2"><del class="pr-2 text-dark">$30.00</del>$20.10</h6>
+            <div class="add_to_card_button text-center">
+              <a class="btn btn-sm">ADD TO CART >></a>
+            </div>
+        </div>
+       </div>
+       
+      </div>
+
+   </div>
+   </section>
+<!--================================= Our new product section end======================================-->
   
 
 
@@ -299,5 +379,28 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- ==========for plagin========= -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <script>
+      // start iso-top
+      
+       var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  masonry: {
+    columnWidth: 1,
+  }
+});
+
+
+   $('.item_button').on( 'click', 'li', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+//end isotop
+    </script>
+    
 </body>
 </html>

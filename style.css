@@ -17,6 +17,12 @@ h1,h2,h4,p,a{
 .primaryTextColor{
     color:#0A472E
 }
+.primaryTextColor_1{
+    color:#97BF04
+}
+.primaryTextColor_2{
+    color:#F2780C
+}
 .PrimaryButton_1{
     color:#fff;
     background-color: #97BF04;
@@ -31,6 +37,27 @@ h1,h2,h4,p,a{
 }
 #main_carousel{
     z-index:-20;
+}
+
+.underline{
+    height: 2px;
+    width: 50px;
+    background-color:#97BF04 ;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add_to_card_button a{
+    color:#97BF04;
+    border: 1px solid #97BF04;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.add_to_card_button a:hover{
+    background-color:#97BF04;
+    color:#fff;
+    
 }
 /* ==================================global setup area====================================*/
 /* ==================================Start header Section====================================*/
@@ -147,3 +174,26 @@ h1,h2,h4,p,a{
 }
 
 /* ==================================our prducts detail end==================================*/
+/* ==================================our new prduct start==================================*/
+
+#new_product .item_button li{
+    list-style: none;
+    font-weight: bold;
+    padding-right: 10px;
+    color:#97BF04;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    
+}
+#new_product .item_button li:hover{
+    color:#0A472E;
+    border-bottom: 2px solid #0A472E;
+    border-top: 2px solid #0A472E;
+    
+}
+#new_product .isotop_body img{   
+    height:200px;
+    width: 100%;
+    
+}
+/* ==================================our new prduct  end==================================*/

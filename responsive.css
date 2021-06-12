@@ -41,6 +41,13 @@
         width: 100%;
     }
 
+    #new_product .item_button li{
+
+        padding:3px;
+        border-bottom: 2px solid #fff;
+        
+    }
+
 
 	
 }
