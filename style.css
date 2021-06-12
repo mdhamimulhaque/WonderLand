@@ -47,6 +47,13 @@ h1,h2,h4,p,a{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.underline1{
+    height: 2px;
+    /* width: 30px; */
+    background-color:#97BF04 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .add_to_card_button a{
     color:#97BF04;
@@ -191,9 +198,28 @@ h1,h2,h4,p,a{
     border-top: 2px solid #0A472E;
     
 }
-#new_product .isotop_body img{   
+#new_product .product_body img{   
     height:200px;
     width: 100%;
     
 }
 /* ==================================our new prduct  end==================================*/
+/* =========Deels of the week,Best sellers, Our products section  start==================================*/
+#best_products_week .deals_week img{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#best_products_week .deals_week .card-header{
+    background-color: #F2780C;
+}
+
+#product_carousel img{
+    height:200px;
+    width: 100%;
+}
+#product_carousel .item{
+    padding: 5px;
+}
+/* ============Deels of the week,Best sellers, Our products section end==================================*/
