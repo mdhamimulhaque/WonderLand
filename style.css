@@ -223,3 +223,33 @@ h1,h2,h4,p,a{
     padding: 5px;
 }
 /* ============Deels of the week,Best sellers, Our products section end==================================*/
+/* ========================= Banner section start========================= */
+#banner_section{
+    height:400px;
+    width: 100%;
+}
+
+ #banner_section .banner_box1 img{
+     height: 400px;
+     width: 100%;
+ }
+
+ #banner_section .banner_box2 img{
+     height: 200px;
+     width: 100%;
+ }
+ #banner_section .banner_box3 img{
+     height: 200px;
+     width: 50%;
+     float: left;
+     padding-top: 20px;
+     padding-right: 10px;
+ }
+ #banner_section .banner_box4 img{
+     height: 200px;
+     width: 50%;
+     float: left;
+     padding-top: 20px;
+     padding-left: 10px;
+ }
+/* ========================= Banner section end========================= */
