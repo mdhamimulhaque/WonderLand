@@ -286,4 +286,13 @@ h1,h2,h4,p,a{
     height: 450px;
 }
 /* ==================== Tranding products,Top rated & Testimonial carousel  end========================= */
+/* ==================== Our blog section Start========================= */
+#our_blog .blog_box{
+    height:auto;
+}
+#our_blog .blog_box img{
+    height:150px;
+    width: 100%;
+}
+/* ==================== Our blog section End========================= */
 
