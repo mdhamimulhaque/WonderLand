@@ -15,7 +15,10 @@
         width: 40%;
     }
    
-
+    #Tranding_Top_Test{
+        height: 560px;
+       
+    }
 
 }
 
@@ -41,13 +44,22 @@
         width: 100%;
     }
 
-    #new_product .item_button li{
+    #our_product .item_button li{
 
         padding:3px;
         border-bottom: 2px solid #fff;
         
     }
+
+    #banner_section{
+        height:1220px;
+        width: 100%;
+    }
     
+    #Tranding_Top_Test{
+        height: 1950px;
+        
+    }
 
 
 	

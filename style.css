@@ -169,6 +169,9 @@ h1,h2,h4,p,a{
 
 /* ==================================main carousel end==================================*/
 /* ==================================our prducts details start==================================*/
+#our_products_details{
+    width:100vw;
+}
 #our_products_details .number img{
      height: 70px;
      width: 70px;
@@ -181,9 +184,13 @@ h1,h2,h4,p,a{
 }
 
 /* ==================================our prducts detail end==================================*/
-/* ==================================our new prduct start==================================*/
+/* ==================================our prducts section start==================================*/
 
-#new_product .item_button li{
+#our_product{
+    width:100vw;
+    
+}
+#our_product .item_button li{
     list-style: none;
     font-weight: bold;
     padding-right: 10px;
@@ -192,19 +199,22 @@ h1,h2,h4,p,a{
     border-top: 2px solid #fff;
     
 }
-#new_product .item_button li:hover{
+#our_product .item_button li:hover{
     color:#0A472E;
     border-bottom: 2px solid #0A472E;
     border-top: 2px solid #0A472E;
     
 }
-#new_product .product_body img{   
+#our_product .product_body img{   
     height:200px;
     width: 100%;
     
 }
-/* ==================================our new prduct  end==================================*/
+/* ==================================ou prducts section end==================================*/
 /* =========Deels of the week,Best sellers, Our products section  start==================================*/
+#best_products_week{
+    width: 100vw;
+}
 #best_products_week .deals_week img{
     height: 300px;
     width: 100%;
@@ -224,6 +234,9 @@ h1,h2,h4,p,a{
 }
 /* ============Deels of the week,Best sellers, Our products section end==================================*/
 /* ========================= Banner section start========================= */
+#best_products_week{
+    background-color: #F4F4F4;
+}
 #banner_section{
     height:400px;
     width: 100%;
@@ -253,3 +266,24 @@ h1,h2,h4,p,a{
      padding-left: 10px;
  }
 /* ========================= Banner section end========================= */
+/* ==================== Tranding products,Top rated & Testimonial carousel  start========================= */
+#Tranding_Top_Test{
+    height: 520px;
+    
+}
+#Tranding_Top_Test img{
+    height: 70px;
+    width: 70px
+}
+#Tranding_Top_Test .trandong_product{
+    border-right: 1px solid #97BF04;
+    border-left: 1px solid #97BF04;
+}
+#Tranding_Top_Test .trandong_product a:hover{
+    color:#97BF04
+}
+#Tranding_Top_Test .testmonial .carousel-item img{
+    height: 450px;
+}
+/* ==================== Tranding products,Top rated & Testimonial carousel  end========================= */
+
