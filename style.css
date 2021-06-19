@@ -210,7 +210,20 @@ h1,h2,h4,p,a{
     width: 100%;
     
 }
-/* ==================================ou prducts section end==================================*/
+/* ==================================our prducts section end==================================*/
+/* ==================================big banner section start==================================*/
+#big_banner{
+    height: 350px;
+    width: 100%;
+    background-image: url(img/bigbannner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#big_banner .banner_box{
+   margin-top: 20%;
+}
+/* ==================================big banner section end==================================*/
+
 /* =========Deels of the week,Best sellers, Our products section  start==================================*/
 #best_products_week{
     width: 100vw;
