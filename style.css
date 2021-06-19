@@ -295,4 +295,43 @@ h1,h2,h4,p,a{
     width: 100%;
 }
 /* ==================== Our blog section End========================= */
+/* ==================== catagories before footer start========================= */
+#catagories ul li a{
+    color:#000;
+}
+#catagories ul li a:hover{
+    color:#97BF04
+}
+
+#catagories .catagory_box1{
+    background-image: url(img/catagories2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#catagories .catagory_box2{
+    background-image: url(img/catagories1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#catagories .catagory_box3{
+    background-image: url(img/catagories3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#catagories .catagory_box4{
+    background-image: url(img/catagories6.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#catagories .catagory_box5{
+    background-image: url(img/catagories5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#catagories .catagory_box6{
+    background-image: url(img/catagories4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* ==================== catagories before footer end========================= */
 
