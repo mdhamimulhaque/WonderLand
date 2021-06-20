@@ -14,6 +14,9 @@ secondary:#D93D1A  #F2BB13 #72A603 #C0D99C  */
 h1,h2,h4,p,a{
     font-family: 'Open Sans', sans-serif;
 }
+.primaryBGcolor{
+    color:#0A472E
+}
 .primaryTextColor{
     color:#0A472E
 }
@@ -112,7 +115,7 @@ h1,h2,h4,p,a{
 /* end second(logo) header ----------------------------------*/
 #main_header{
     background-color:#0A472E;
-    height:60px;
+    height:64px;
     /*  */
 }
 .main_header_dropdown{
