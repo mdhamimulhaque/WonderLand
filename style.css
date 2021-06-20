@@ -347,4 +347,26 @@ h1,h2,h4,p,a{
     background-repeat: no-repeat;
 }
 /* ==================== catagories before footer end========================= */
+/* ====================footer start========================= */
+footer{
+    background-color: rgba(230, 230, 230, 0.952);
+}
+footer .F_follous a{
+    font-size:22px;
+    padding: 5px;
+    color:#0A472E
+}
+footer .F_follous a:hover{
+    color:#97BF04
+}
+footer .F_account, .F_information, .F_account ,.F_catagories, a{
+    color:#000;
+}
+footer .F_account, .F_information, .F_account ,.F_catagories, a:hover{
+    color:#97BF04;
+}
+footer .F_account, .F_information, .F_account ,.F_catagories, li{
+    padding-bottom: 8px;
+}
+/* ====================footer end========================= */
 
